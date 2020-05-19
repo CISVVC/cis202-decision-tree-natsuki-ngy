@@ -66,5 +66,18 @@ Binary_tree Binary_tree::right() const
     return result;
 }
 
+void Binary_tree::set(string question, Binary_tree current_tree, Binary_tree new_tree)
+{
+    string temp = current_tree.root->data; 
+    current_tree.root->data = question;
+    current_tree.root->left = new_tree.root;
+
+    Node *right = new Node;
+    right->data = temp;
+    right->right = nullptr;
+    right->left = nullptr;
+
+    current_tree.root->right = right;
+}
 
 

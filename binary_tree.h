@@ -71,6 +71,11 @@ public:
     */
     Binary_tree right() const;
 
+    /**
+       Sets a new question
+    */
+    void set(string question, Binary_tree current_tree, Binary_tree new_tree);
+
 private:
     /**
        Returns the height of the subtree whose root is the given node.
