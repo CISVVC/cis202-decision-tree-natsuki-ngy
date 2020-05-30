@@ -1,11 +1,9 @@
-/*
-   This program will create a decision tree for an animal
-   guessing game.
+//File: main.cpp
+//Description: This program will create a decision tree for an animal guessing game.
+//Date: 5/18/2020
+//Author: Natsuki Nagaya
+//email: natsukn8988@student.vvc.edu
 
-   
-   Pseudocode has been added as a hint to help with developing this
-   program
-*/
 
 #include <iostream>
 #include <fstream>
